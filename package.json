@@ -1,0 +1,22 @@
+{
+  "name": "starter-project",
+  "version": "1.0.0",
+  "description": "starter gulp project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeremy Jones",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "del": "^4.0.0",
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "bootstrap-accessibility-plugin": "^1.0.6"
+  }
+}
