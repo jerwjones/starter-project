@@ -1,4 +1,7 @@
 # starter-project
 Gulp starter project
-Run "npm install --save-dev" to install all DevDependencies
-Run "gulp" to build project
+
+<ol>
+  <li>Run "npm install --save-dev" to install all DevDependencies</li>
+  <li>Run "gulp" to build project</li>
+  </ol>
