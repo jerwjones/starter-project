@@ -3,6 +3,7 @@ var sass = require('gulp-sass');
 var cleanCSS = require('gulp-clean-css')
 var concat = require('gulp-concat');
 var del = require('del');
+var rename = require('gulp-rename');
 var browserSync = require('browser-sync');
 
 // Files to Copy
@@ -37,7 +38,9 @@ function html() {
 function css() {
     return gulp.src('src/scss/**/*.scss')
         .pipe(sass())
+        .pipe(gulp.dest('./dist/css'))
         .pipe(cleanCSS({ compatibility: 'ie8' }))
+        .pipe(rename({ suffix: '.min' }))
         .pipe(gulp.dest('./dist/css'));
 };
 
